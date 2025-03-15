@@ -1,0 +1,111 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Arimo:wght@400;500&display=swap");
+
+/* General Styles */
+body {
+  background-color: #171717;
+  color: #d1d1d1;
+  font-family: "Arimo", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section Container */
+.how-it-works {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* Section Title */
+.section-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+/* Steps Container */
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* Each Step */
+.step {
+  background: #1c1c1c;
+  padding: 20px;
+  border-radius: 12px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.step:hover {
+  transform: translateY(-5px);
+}
+
+/* Step Icon */
+.step-icon {
+  font-size: 32px;
+  color: #facc15;
+  margin-bottom: 10px;
+}
+
+/* Step Number */
+.step-number {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #d1d1d1;
+  text-transform: uppercase;
+}
+
+/* Step Title */
+.step-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 10px 0;
+}
+
+/* Step Description */
+.step-desc {
+  font-size: 1rem;
+  color: #d1d1d1;
+  line-height: 1.4;
+}
+
+/* CTA Button */
+.cta {
+  margin-top: 40px;
+}
+
+.cta-button {
+  display: inline-block;
+  background: #facc15;
+  color: #0d0d0d;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+/* Button Hover Effect */
+.cta-button:hover {
+  background: #e5b800;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .steps {
+    flex-direction: column;
+    align-items: center;
+  }
+}
